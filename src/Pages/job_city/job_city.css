@@ -1,0 +1,41 @@
+.wrapper-job_city{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.job_city{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.cities{
+    width: 30%;
+}
+.jobs{
+    width: 70%;
+}
+
+
+
+@media (max-width: 600px) {
+    .job_city{
+        flex-direction: column !important;
+    } 
+    .cities{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 786px) {
+    .job_city{
+        flex-direction: column;
+    }
+    .cities{
+        width: 100%;
+    }
+    .jobs{
+        width: 100%;
+    }
+}

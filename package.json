@@ -1,0 +1,75 @@
+{
+  "name": "exclusive-house-service",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.93",
+    "@mui/material": "^5.2.1",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
+    "antd": "^4.22.4",
+    "apexcharts": "^3.35.4",
+    "axios": "^0.27.2",
+    "chart.js": "^3.9.1",
+    "d3-ease": "^3.0.1",
+    "date-fns": "^2.29.1",
+    "dotenv": "^16.0.1",
+    "downshift": "^6.1.7",
+    "formik": "^2.2.9",
+    "framer-motion": "^7.0.0",
+    "fullstack-phone": "^1.111.0",
+    "material-ui": "^0.20.2",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-bootstrap": "^2.5.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "^18.2.0",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-input-mask": "^2.0.4",
+    "react-move": "^6.5.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.2.4",
+    "rsuite": "^5.16.4",
+    "rsuite-daterangepicker": "^3.0.5",
+    "sweetalert2": "^11.4.25",
+    "tsparticles": "^2.2.4",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

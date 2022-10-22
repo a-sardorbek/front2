@@ -1,0 +1,186 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+}
+
+ul,
+li,
+p,
+a {
+  padding: 0px;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* this is useful for dateRangePicker please do not change it */
+
+.rs-picker-toggle-wrapper {
+  color: white !important;
+  display: block !important;
+}
+
+.rs-picker-toggle-textbox {
+  background-color: rgb(0, 4, 24) !important;
+  color: white !important;
+}
+
+.rs-picker-daterange-panel {
+  background-color: rgb(0, 4, 24) !important;
+  color: white !important;
+}
+
+.rs-anim-fade.rs-anim-in {
+  background-color: rgb(0, 4, 24) !important;
+  color: white !important;
+}
+
+.rs-picker-default .rs-picker-toggle.rs-btn {
+  background-color: transparent !important;
+  color: white !important;
+  border-color: rgba(165, 165, 165, 0.397) !important;
+}
+
+.rs-picker-toggle-read-only {
+  color: white !important;
+}
+
+.rs-picker-toggle-value {
+  color: white !important;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: #ebebf0;
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 100vw;
+  border: 0.25em solid rgb(35, 44, 90);
+  background: rgb(35, 44, 90);
+}
+
+::-webkit-scrollbar {
+  height: 5px; /* for horizontal scrollbars */
+}
+
+.rs-table-loader-wrapper {
+  background-color: rgba(32, 36, 46, 0.74) !important;
+}
+
+.css-d9ml5t-MuiDrawer-docked .MuiDrawer-paper {
+  background-color: #d1d2de !important;
+}
+.css-1r7kz78-MuiModal-root-MuiDrawer-root .MuiDrawer-paper {
+  background-color: #d1d2de !important;
+}
+
+.secondary-color {
+  background-color: #d1d2de;
+}
+
+.primary-color {
+  background-color: #494a5e;
+}
+
+.third-color {
+  background-color: #ebebf0;
+}
+
+.no_hover:hover {
+  text-decoration: none;
+}
+
+.css-ja5taz-MuiTooltip-tooltip {
+  background-color: inherit !important;
+}
+/*
+.rs-table-row-expanded {
+  background-color: #3D4552 !important;
+  padding: 0 !important;
+  min-width: 100% !important;
+  width: 100% !important;
+  overflow-y: scroll !important;
+} */
+
+/*
+.Table_table__Fcyxi {
+  min-width: unset !important;
+} */
+
+
+@media (max-width: 600px) {
+  .WrappingWholeContent_Header{
+    margin-top: 20px;
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .WrappingWholeContent_Header::-webkit-scrollbar {
+    display: none;
+}
+.cardss{
+  display: block !important;
+}
+.cards{
+  width: auto !important;
+}
+.css-1v5u2yv{
+  padding: 0 !important;
+}
+.progressBarContent{
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.progressBarContent div{
+  width: 140px !important;
+  margin: 10px 0;
+}
+.arizalar{
+  text-align: center;
+  font-size: 14px !important;
+}
+.arizalar_soni{
+  text-align: center !important;
+}
+.wrapperForm{
+  margin-top: 70px;
+}
+.text-muted{
+  margin-top: 40px;
+}
+.filter{
+  display: block !important;
+}
+.infinite-scroll-component {
+  overflow: scroll;
+}
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+  width: 400px !important;
+}
+.infinite-scroll-component {
+  width: 850px;
+}
+.MuiSvgIcon-fontSizeMedium{
+  margin-top: 0 !important;
+}
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    width: 600px !important;
+  }
+}

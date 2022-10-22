@@ -1,0 +1,38 @@
+.wrapper-inside_jobs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cities_box{
+    margin: 20px 15px 20px 0;
+}
+.wrapper_jobs{
+    margin-top: 5px;
+}
+.wrapper-chips{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.chip{
+    margin: 5px 15px 5px 0px;
+}
+.closeIcon{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+    color: rgb(35, 91, 151);
+    width: 20px;
+    height: 20px;
+}
+
+.line{
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.cities-job_button{
+    width: 80%;
+    margin: 15px auto;
+
+}

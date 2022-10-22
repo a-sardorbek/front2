@@ -1,0 +1,25 @@
+.firstDateContent {
+    display: flex;
+    border: 1px solid rgba(165, 165, 165, 0.397);
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    border-radius: 5px;
+  }
+  
+  .firstDateContent p {
+    margin: 0;
+    padding: 5px 25px;
+    cursor: pointer;
+  }
+
+  .secondDateContent {
+    width: 300px;
+    display: flex;
+  }
+
+  
+  .active_option {
+    background-color: #dc6470;
+  }
+  

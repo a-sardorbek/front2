@@ -1,0 +1,111 @@
+.wrapperForm {
+  box-shadow: 2px 4px 13px grey;
+  border-radius: 16px;
+}
+.wrapperInputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 0 auto;
+  padding: 1% 15% 0 15%;
+}
+
+.inputs {
+  width: 100% !important;
+}
+
+.FullName {
+  width: 25%;
+}
+
+.css-3cjm13-MuiFormControl-root {
+  margin: 0 !important;
+}
+
+@media (max-width: 850px) {
+  .wrapperInputs {
+    padding: 5% 0%;
+  }
+}
+
+@media (min-width: 851px) and (max-width: 1200px) {
+  .wrapperInputs {
+    padding: 5%;
+  }
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+textarea {
+  background-color: #ebebf0 !important;
+  resize: none;
+  color: black !important;
+}
+.dom{
+  width: 47%;
+}
+.kvartira{
+  width: 47%;
+}
+
+.dom-kvartira{
+  display: flex;
+  justify-content: space-between;
+  width: 100% !important;
+}
+
+
+
+
+/* filter */
+.wrapper-filter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.filter{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.motionDiv{
+  width: 100% !important;
+}
+#table .third-color{
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  align-items: center;
+}
+
+.MuiTableCell-root{
+  position: relative;
+  width: 20%;
+  height: 100%;
+  border: none !important;
+}
+.MuiTableCell-root:first-child{
+  width: 10% !important;
+  text-align: center;
+}
+.countForTable{
+  font-weight: bold;
+}
+
+.tableTime{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  color: green;
+  border-bottom: 1px solid green;
+}

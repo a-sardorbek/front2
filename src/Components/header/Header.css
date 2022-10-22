@@ -1,0 +1,57 @@
+.WrappingWholeContent_Header {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.dateContent {
+  display: flex;
+  align-items: center;
+}
+
+
+.btnFilter {
+  background-color: #2c3342;
+  color: #3399ff;
+  border: "1px solid #5A6479";
+}
+
+.btnFilter:hover {
+  color: #3399ff;
+}
+
+.userContent {
+  display: flex;
+  align-items: flex-end;
+}
+
+.userContent img {
+  object-fit: cover;
+}
+
+.user {
+  width: 30px;
+  object-fit: cover;
+}
+
+.userContent span {
+  color: #6e768c;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.selectOption {
+  background-color: transparent;
+  font-weight: bold;
+  border: none;
+  padding-right: 10px;
+  font-size: 15px;
+  color: #6e768c;
+}
+
+.selectOption:focus {
+  outline: none;
+  box-shadow: 0px 0px 3px blue;
+}

@@ -1,0 +1,64 @@
+/* dashboard */
+.cardss {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 200px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    height: 110px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.cards img {
+    width: 40px;
+}
+
+.cardRightElement {
+    padding: 15px;
+}
+
+.card_percents {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardRightElement>span {
+    color: #838383;
+}
+
+
+
+/* orders */
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper>div {
+    width: 25%;
+    background-color: #2e354273;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.wrapper>div>span {
+    color: #d8d8d8;
+}
+
+.wrapper>div>h5>span {
+    font-size: 12px;
+}
+
+.wrapper>div>h5 {
+    margin-top: 3px;
+}

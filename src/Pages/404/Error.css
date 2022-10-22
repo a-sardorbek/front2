@@ -1,0 +1,52 @@
+.error-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+  background-image: url("../../Assets/Global/error_image.png");
+  background-size: cover;
+}
+
+.context-wrapper {
+  width: 100% !important;
+  height: auto !important;
+  background-image: none !important;
+}
+
+.error-inner {
+  max-width: 700px;
+  text-align: center;
+}
+
+.error-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.error-text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.error-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 18px;
+  border: none;
+  color: #333;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.error-btn:hover {
+  filter: drop-shadow(6px 6px 6px rgba(253, 252, 252, 0.25));
+}
